@@ -1,3 +1,5 @@
+QUERY: SELECT `name`, `surname`, `date_of_birth` FROM `students` WHERE YEAR(`date_of_birth`) = '1990'
+
 "Lauro","Vitale","1990-01-30"
 "Matilde","Ruggiero","1990-11-17"
 "Marieva","Mariani","1990-08-30"
